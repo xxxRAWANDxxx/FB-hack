@@ -342,9 +342,9 @@ if __name__=="__main__":
 
         elif pilih == '4':
             try:
-                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')'])
+                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
             except KeyboardInterrupt:
-                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')'])
+                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
             except WindowsError:
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
 
@@ -354,10 +354,10 @@ if __name__=="__main__":
                 print " "
                 print " \n\033[95;1m  SUBSCRIBE MY CHANNEL \033[96;1m(MR.404/RAIHAN)"
                 raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Instagram..")
-                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')'])
+                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
             except KeyboardInterrupt:
-                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')'])
+                subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
             except WindowsError:
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')

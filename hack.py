@@ -303,9 +303,7 @@ if __name__=="__main__":
      
         
         os.system('cls' if os.name == 'nt' else 'clear')
-        print "\n\033[96;1m░█▄█░█▀▄░░░░█░█░▄▀▄░█░█\n"
-        print "\n\033[96;1m░█░█░█▀▄░░░░░▀█░█/█░░▀█\n"
-        print "\n\033[96;1m░▀░▀░▀░▀░▀░░░░▀░░▀░░░░▀\n"
+        os.system('figlet -f pagga MR.404 | lolcat
         print '\033[96;1m ++++++++++++MENU HACK FB+++++++++++++++'
         print '\033[96;1m -------------------------------------'
         print("\n\033[42;1m| {1} Multi Brute Force Serch Poeple|\033[00;1m")

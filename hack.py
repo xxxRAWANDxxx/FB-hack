@@ -20,15 +20,8 @@ from user_dev import *
 
 os.system('cls' if os.name == 'nt' else 'clear')
 download()
-print '\033[96;1m ++++++++++++MENU HACK FB+++++++++++++++'
 print '\033[96;1m -------------------------------------'
-print("\n\033[42;1m| {1} Multi Brute Force Serch Poeple|\033[00;1m")
-print("\n\033[42;1m| {2} Multi Brute Force From Like|\033[00;1m")
-print("\n\033[42;1m| {3} Multi Brute Force Grup Fb|\033[00;1m")
-print("\n\033[42;1m| {4} Cara Menggunakan Tool|\033[00;1m")
-print("\n\033[42;1m| {5} Subrek my chennel|\033[00;1m")
-print '\033[96;1m -------------------------------------'
-print '\033[96;1m +++++++++++++++++++++++++++++++++++++++'
+print("\n\033[42;1m|HACK FB MR.4P4|\033[00;1m")
 versi = '0.2'
 
 coki = open('cookie.txt', 'r').read()
@@ -310,7 +303,15 @@ if __name__=="__main__":
      
         
         os.system('cls' if os.name == 'nt' else 'clear')
-        banner()
+        print '\033[96;1m ++++++++++++MENU HACK FB+++++++++++++++'
+        print '\033[96;1m -------------------------------------'
+        print("\n\033[42;1m| {1} Multi Brute Force Serch Poeple|\033[00;1m")
+        print("\n\033[42;1m| {2} Multi Brute Force From Like|\033[00;1m")
+        print("\n\033[42;1m| {3} Multi Brute Force Grup Fb|\033[00;1m")
+        print("\n\033[42;1m| {4} Cara Menggunakan Tool|\033[00;1m")
+        print("\n\033[42;1m| {5} Subrek my chennel|\033[00;1m")
+        print '\033[96;1m -------------------------------------'
+        print '\033[96;1m +++++++++++++++++++++++++++++++++++++++'
         print '\033[96;1m  {\033[92;1m@\033[96;1m}\033[92;1m Hai :\033[97;1m',nama,'\n'
         pilih = raw_input("\033[96;1m {\033[93;1m?\033[96;1m}\033[97;1m Pilih Opsi \033[92;1m: ")
         if pilih == '1':

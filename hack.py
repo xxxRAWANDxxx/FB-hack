@@ -304,6 +304,14 @@ if __name__=="__main__":
         
         os.system('cls' if os.name == 'nt' else 'clear')
         os.system('figlet -f pagga MR.404 | lolcat')
+        print " \n\033[95;1m  AUTHOR \033[96;1m(MR.404/RAIHAN)"
+        print " \n\033[95;1m  KALIMANTAN-CYBER-TEAM \033[96;1mWHITE HAT"
+        print "\n\033[96;1m|●●●●●|  |'''''''''|"
+        print "\n\033[96;1m|           |         |"
+        print "\n\033[96;1m|••••••••|  |_________|"
+        print "\n\033[96;1m|           |"        
+        print "\n\033[96;1m|           |*********|"
+        print "\n\033[96;1m|           |_________|"      
         print '\033[96;1m ++++++++++++MENU HACK FB+++++++++++++++'
         print '\033[96;1m -------------------------------------'
         print("\n\033[42;1m| {1} Multi Brute Force Serch Poeple|\033[00;1m")

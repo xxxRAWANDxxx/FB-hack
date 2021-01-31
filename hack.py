@@ -20,7 +20,15 @@ from user_dev import *
 
 os.system('cls' if os.name == 'nt' else 'clear')
 download()
-banner_()
+++++++++++++MENU HACK FB+++++++++++++++
+'-------------------------------------'
+print("\n\033[42;1m| {1} Multi Brute Force Serch Poeple|\033[00;1m")
+print("\n\033[42;1m| {2} Multi Brute Force From Like|\033[00;1m")
+print("\n\033[42;1m| {3} Multi Brute Force Grup Fb|\033[00;1m")
+print("\n\033[42;1m| {4} Cara Menggunakan Tool|\033[00;1m")
+print("\n\033[42;1m| {5} Subrek my chennel|\033[00;1m")
+'-------------------------------------'
++++++++++++++++++++++++++++++++++++++++
 versi = '0.2'
 
 coki = open('cookie.txt', 'r').read()

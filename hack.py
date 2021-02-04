@@ -21,7 +21,7 @@ from user_dev import *
 os.system('cls' if os.name == 'nt' else 'clear')
 download()
 print '\033[96;1m -------------------------------------'
-print("\n\033[42;1m|HACK FB MR.4P4|\033[00;1m")
+print("\n\033[42;1m|HACK FB xxxRAWANDxxx|\033[00;1m")
 versi = '0.2'
 
 coki = open('cookie.txt', 'r').read()
